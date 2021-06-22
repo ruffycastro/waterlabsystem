@@ -1,7 +1,7 @@
 <?php include('header.php');?>
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12" style="">
 			<h1>Welcome back <?php echo $fullname;?>,</h1>
             <p><?php echo php_ini_loaded_file(); ?></p>
 			<p style="text-align: center;">
